@@ -30,5 +30,13 @@
     },
     "require-dev": {
         "phpunit/phpunit": "*"
-    }
+    },
+	"autoload": {
+		"psr-0": {
+			"HTTP_Request" : ""
+		}
+	},
+	"include-path": [
+		"./"
+	]
 }
